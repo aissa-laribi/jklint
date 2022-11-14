@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='jklint',
-    version='0.0.1',
+    version='0.0.2',
     description='A CLI designed to save time linting and validating Jenkinsfiles.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -18,7 +18,7 @@ setup(
     install_requires=['python-dotenv==0.21.0','coverage==6.5.0','requests==2.28.1'],
     entry_points={
         'console_scripts': [
-            'jklint=cli:main',
-            ]
+            'jklint=jklint.cli:main',
+            ],
         }
     )

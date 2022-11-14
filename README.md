@@ -1,7 +1,8 @@
 # Jklint
 
-A CLI designed to save time linting Jenkinsfiles by typing a maximum of 2 keywords in the terminal.
+A Jenkinsfile linter CLI saving time linting Jenkinsfiles by only typing 1 argument in the command line.
 
+![](https://media.giphy.com/media/bxSegGXznypndd2lfB/giphy.gif)
 
 ## Features ⭐
 
@@ -9,7 +10,7 @@ A CLI designed to save time linting Jenkinsfiles by typing a maximum of 2 keywor
 
 2.Short commands to type
 
-3.Validate Jenkinsfiles through the official Jenkins API
+3.Validate Jenkinsfiles through the Jenkins Client of your server
 
 4.Masked credentials
 

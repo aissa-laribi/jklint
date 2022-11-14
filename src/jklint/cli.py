@@ -45,7 +45,7 @@ def main():
     
     from time import sleep
     import dotenv
-    import call, cli
+    import jklint.call as call, jklint.cli as cli
 
     parser = create_parser()
     args = parser.parse_args()
